@@ -1,0 +1,9 @@
+/opt/
+/JS/
+/.idea/
+.idea
+*.iml
+/Net/
+*.js
+*.cs
+*.csproj
