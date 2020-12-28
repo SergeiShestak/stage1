@@ -1,6 +1,6 @@
 package carriages;
 
-public abstract class Carriage implements Carriages,Comparable<Carriage> {
+public abstract class Carriage implements Comparable<Carriage> {
      private int capacityPassengers;
      private int capacityLuggage;
      private ComfortLevel comfort;
@@ -11,6 +11,7 @@ public abstract class Carriage implements Carriages,Comparable<Carriage> {
         this.capacityLuggage = capacityLuggage;
 
     }
+
 
     public int getCapacityPassengers(){
         return capacityPassengers;

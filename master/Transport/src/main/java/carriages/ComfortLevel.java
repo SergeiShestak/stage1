@@ -1,5 +1,5 @@
 package carriages;
 
 public enum ComfortLevel {
-    LUX,STANDART,PUBLIC
+    LUX,STANDART,PUBLIC, values, splitLine;
 }

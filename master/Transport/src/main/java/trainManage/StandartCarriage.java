@@ -8,12 +8,7 @@ import carriages.ComfortLevel;
 public class StandartCarriage extends Carriage {
 
     public StandartCarriage(ComfortLevel comfort,int capacityPassengers,int capasityLuggage){
-        super(comfort,capacityPassengers,capasityLuggage);
-    }
-
-    @Override
-    public int compareTo(Carriage carriage) {
-        return 0;
+        super(ComfortLevel.STANDART,capacityPassengers,capasityLuggage);
     }
 }
 
