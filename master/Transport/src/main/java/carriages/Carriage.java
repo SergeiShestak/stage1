@@ -12,11 +12,6 @@ public abstract class Carriage implements Comparable<Carriage> {
 
     }
 
-
-    public int getCapacityPassengers(){
-        return capacityPassengers;
-    }
-
     public int getCapacityLuggage(){
         return capacityLuggage;
     }

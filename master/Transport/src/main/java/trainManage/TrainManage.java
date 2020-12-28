@@ -2,18 +2,19 @@ package trainManage;
 
 import carriages.Carriage;
 
+import java.util.ArrayList;
 import java.util.Collections;
 import java.util.Comparator;
-import java.util.List;
 
 public class TrainManage {
 
     private int numberOfPassengers =0;
     private int weightOfLuggage=0;
-    private List<? extends Carriage> compound;
+    private ArrayList<Carriage> compound;
 
-    public TrainManage() {
+    public TrainManage(ArrayList<Carriage> compound) {
 
+        this.compound = compound;
     }
 
     public int getCountCompoundPassengers(){
@@ -44,5 +45,5 @@ public class TrainManage {
         return "{" + compound.toString() +'}';
     }
 
-    public TrainManage(List<? extends Carriage> compound){this.compound=compound;}
+    //public TrainManage(List<? extends Carriage> compound){this.compound=compound;}
 }
